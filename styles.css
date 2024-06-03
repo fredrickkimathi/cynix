@@ -1,0 +1,123 @@
+#top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px; /* Added padding on the right */
+}
+.section1{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.links{
+    width: 60%;
+}
+
+
+.top-text {
+    color: white;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding-left: 2%;
+    font-size: 14px;
+    height: 20px;
+}
+.cor-text{
+    color: white;
+    font-size: 25px;
+    padding-top: 150px;
+}
+#hum{
+    display: none;
+}
+
+#logo {
+    height: 65px;
+    padding-top: 1.5%;
+    padding-left: 10%;
+}
+.hum-links{
+    display: none;
+}
+
+.top-text:hover {
+    border-left: solid 1.5px white;
+    color: rgb(65, 185, 148);
+}
+
+.top-text:focus {
+    border-left: solid 1.5px white;
+    color: rgb(65, 185, 148);
+    font-weight: bold;
+}
+
+.register {
+    background-color: rgb(65, 185, 148);
+    color: white;
+    border-radius: 18px;
+    margin-top: 2px;
+    font-size: 11px;
+    padding: 12px 20px;
+}
+
+.register:focus {
+    background-color: white;
+    color: rgb(65, 185, 148);
+    border-radius: 18px;
+    margin: 15px 200px;
+    font-size: 11px;
+    padding: 10px 20px;
+}
+
+/* media query */
+
+@media screen and (max-width: 1218px) {
+    #top-section{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .register{
+        margin-left:50px;
+    }
+    .links a{
+        display: none;
+    }
+    
+    #hum{
+        display: block;
+        color: white;
+        font-weight: bold;
+        
+    }
+    #logo{
+        padding-left: 0px;
+        margin-left: -80px;
+        height: 50px;
+    }
+}
+@media screen and (max-width:650px) {
+    .register{
+        margin-top: -40px;
+        font-size: 10px;
+        height: 20px;
+        padding-bottom: 20px;
+        margin-left: 80px;
+    }
+    .register:focus{
+        color: green;
+    }
+    #hum{
+        margin-top: -30px;
+        margin-left: 50px;
+
+    }
+    #top-section{
+        color: black;
+    }
+    
+}
