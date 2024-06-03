@@ -358,14 +358,23 @@ color: white;
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 .start-up{
-    border-right: 1px solid rgb(187, 187, 187);
+    border-right: 1px solid rgb(231, 230, 230);
 }
+.start-up1{
+    padding-left: 10%;
+    border-right: 1px solid rgb(231, 230, 230);
+
+}
+.start-up2{
+    padding-left: 10%;
+}
+
 .start{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     text-align: left;
     
@@ -379,7 +388,7 @@ color: white;
     font-weight: bold;
     color: rgb(135, 223, 196);
     margin-top: 10px;
-    padding-right: 50px;
+    padding-right: 120px;
 }
 .amt{
     font-size: 40px;
@@ -393,6 +402,71 @@ color: white;
     color: gray;
     text-align: left;
     font-weight: 300;
+}
+.trial12{
+    text-align: left;
+    margin-top: 15px;
+    color: gray;
+    font-size: 12px;
+    font-weight: 300;
+}
+.features{
+    border-bottom: 1px solid gray;
+    text-align: left;
+    margin-right: 70px;
+    margin-top: 20px;
+    color: gray;
+    padding-bottom: 5px;
+}
+.check-features{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 10px;
+    color: gray;
+}
+.cf-text{
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.sel-plan{
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: rgb(135, 223, 196);
+    background-color: white;
+    border: 2px solid rgb(135, 223, 196);
+    margin-top: 115px;
+    margin-right: 20px;
+}
+.sel-plan:focus{
+    background-color:rgb(135, 223, 196) ;
+    color: white;
+}
+.sel-plan1{
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: rgb(135, 223, 196);
+    background-color: white;
+    border: 2px solid rgb(135, 223, 196);
+    margin-top: 90px;
+    margin-right: 20px;
+}
+.sel-plan1:focus{
+    background-color:rgb(135, 223, 196) ;
+    color: white;
+}
+.sel-plan2{
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: rgb(135, 223, 196);
+    background-color: white;
+    border: 2px solid rgb(135, 223, 196);
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.sel-plan2:focus{
+    background-color:rgb(135, 223, 196) ;
+    color: white;
 }
 
 /* responsiveness */
