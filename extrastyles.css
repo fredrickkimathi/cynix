@@ -494,7 +494,7 @@ color: white;
 .cust-text{
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 20px;
 }
 .text-par{
@@ -511,7 +511,7 @@ color: white;
     bottom: 60;
     left: 1;
     color: black;
-    transform: rotate(175deg);
+    transform: rotate(180deg);
     
 }
 .text-quotes1{
@@ -521,6 +521,42 @@ color: white;
     color: black;
     padding-left: 5px;
     
+}
+.user-txt{
+    padding-top: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.user-desc{
+    font-size: 14px;
+    font-weight: 350;
+    color:gray;
+}
+.top-part5{
+    display: flex;
+    justify-content: space-between;
+}
+#cust-icon{
+    border: solid 1.5px black;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 16px 18px;
+}
+.company-sect{
+    background-color: rgb(65, 185, 148);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 180px;
+}
+.c-logos{
+    width: 80px;
+}
+.c-logos1{
+    width: 90px;
+    height: 40px;
+    padding-top: 10px;
 }
 
 /* responsiveness */
