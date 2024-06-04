@@ -818,6 +818,76 @@ color: white;
         margin: 10px -40px;
         border-radius: 12px;
       }
+      .cust-img{
+        display: none;
+      }
+      .customer-sect{
+        width: 100%;
+        margin: 0px 0px;
+      }
+      .cust-text{
+        font-size: 25px;
+        text-align: center;
+        
+      }
+      .top-part5{
+        margin-bottom: -30px;
+      }
+      #cust-icon{
+        display: none;
+        border: none;
+      }
+      .text-par{
+        margin:10px -30px;
+      }
+      .text-quotes{
+        display: none;
+      }
+      .text-quotes1{
+        display: none;
+      }
+      .company-sect{
+        display: none;
+      }
+      .contact-form{
+        text-align: center;
+        margin: 10px 0px;
+      }
+      .cont-inputs{
+        flex-direction: column;
+        gap: 10px;
+      }
+      .contact-in{
+        border: 1px solid rgb(225, 224, 224);
+        padding-top: 10px;
+        
+      }
+      #get-started{
+        padding-bottom: 30px;
+      }
+      .footer{
+        flex-direction: column;
+      }
+      .other-sects{
+        display: none;
+      }
+      .chevron-up{
+        display: none;
+      }
+      .footer-icons{
+        margin-left: -210px;
+        font-size: 10px;
+      }
+      #fin-icons1{
+        color: rgb(51, 50, 63);
+        border: 2px solid rgb(51, 50, 63);
+      }
+      .offices{
+        margin-top: -120px;
+      }
+     
+      
+
     
 }
 
