@@ -337,7 +337,7 @@
     
 }
 .basic:focus{
-background-color: rgb(135, 223, 196);
+background-color: rgb(74, 186, 153);
 color: white;
 }
 .basic{
@@ -384,11 +384,11 @@ color: white;
     font-weight: bold;
 }
 .kes{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
-    color: rgb(135, 223, 196);
+    color: rgb(74, 186, 153);
     margin-top: 10px;
-    padding-right: 120px;
+    padding-right: 70px;
 }
 .amt{
     font-size: 40px;
@@ -432,42 +432,42 @@ color: white;
 .sel-plan{
     padding: 10px 40px;
     border-radius: 20px;
-    color: rgb(135, 223, 196);
+    color: rgb(74, 186, 153);
     background-color: white;
-    border: 2px solid rgb(135, 223, 196);
+    border: 2px solid rgb(74, 186, 153);
     margin-top: 115px;
     margin-right: 20px;
 }
 .sel-plan:focus{
-    background-color:rgb(135, 223, 196) ;
+    background-color:rgb(74, 186, 153);
     color: white;
 }
 .sel-plan1{
     padding: 10px 40px;
     border-radius: 20px;
-    color: rgb(135, 223, 196);
+    color: rgb(74, 186, 153);
     background-color: white;
-    border: 2px solid rgb(135, 223, 196);
+    border: 2px solid rgb(74, 186, 153);
     margin-top: 90px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 .sel-plan1:focus{
-    background-color:rgb(135, 223, 196) ;
+    background-color:rgb(74, 186, 153);
     color: white;
    
 }
 .sel-plan2{
     padding: 10px 40px;
     border-radius: 20px;
-    color: rgb(135, 223, 196);
+    color: rgb(74, 186, 153);
     background-color: white;
-    border: 2px solid rgb(135, 223, 196);
+    border: 2px solid rgb(74, 186, 153);
     margin-top: 40px;
     margin-right: 20px;
 }
 .sel-plan2:focus{
-    background-color:rgb(135, 223, 196) ;
+    background-color:rgb(74, 186, 153);
     color: white;
 }
 .sect5-div{
@@ -706,7 +706,7 @@ color: white;
 }
 
 /* responsiveness */
-@media screen and (max-width: 938px) {
+@media screen and (max-width: 668px) {
     .top-text{
         display: none;
     }
@@ -730,6 +730,96 @@ color: white;
         width: 50px;
         height: 40px;
     }
+    .get-back{
+        font-size: 26px;
+    }
+    #smile{
+        width: 70px;
+        
+    }
+    .loading-dot-container{
+        margin-top: 130px;
+    }
+    .get-started{
+        display: none;
+    }
+    .top-sectt{
+        display: none;
+    }
+    .encourage{
+        margin-top: -50px;
+        font-size: 18px;
+        margin-left: -40px;
+    }
+    .en-img{
+        display: none;       
+    }
+    .surround-container{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .demo-btn{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .tools-container{
+        flex-direction: column;
+        margin: 30px -50px;
+    }
+    .one-part{
+        margin-bottom: -50px;
+    }
+    .second-part{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .tools-part{
+        flex-direction: column;
+    }
+    .smiley-part{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .bg-img2{
+        display: none;
+    }
+    .plans{
+        flex-direction: column;
+    }
+    .sect3{
+        border: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .basic{
+        border: 1px solid gray;
+    }
+    .start{
+        text-align: center;
+    }
+    .start-up{
+      border: 1px solid rgb(224, 224, 224);
+      padding: 20px;
+      margin: 10px -40px;
+      border-radius: 12px;
+    }
+    .start-up1{
+        border: 1px solid rgb(224, 224, 224);
+        padding: 20px;
+        margin: 10px -40px;
+        border-radius: 12px;
+      }
+      .start-up2{
+        border: 1px solid rgb(224, 224, 224);
+        padding: 20px;
+        margin: 10px -40px;
+        border-radius: 12px;
+      }
+    
 }
+
 
 
