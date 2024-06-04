@@ -558,6 +558,74 @@ color: white;
     height: 40px;
     padding-top: 10px;
 }
+.contact-form{
+    margin: 50px 290px;
+    font-family: "roboto", sans-serif;
+}
+.cont-inputs{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.contact-in{
+    border: none;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    padding-bottom: 20px;
+    padding-right: 70px; 
+}
+.contact-in:focus{
+    outline: none;
+}
+.contact-in::placeholder{
+    font-size: 16px;
+     
+}
+#mess{
+    width: 100%;
+    padding-bottom: 60px;
+}
+#send-mess{
+    font-size: 13px;
+    margin-top: 40px;
+    align-self: right;
+    margin-right: 0px;
+
+}
+.flex-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.sect7-div{
+    background-color: rgb(245,245,245);
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    padding: 50px 0px;
+}
+#free-title{
+    font-size: 16px;
+    font-weight: 300;
+}
+#free-text{
+    font-size: 35px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+#free2{
+    font-weight: bold;
+}
+.free-img{
+    width: 80px;
+    margin-left: 190px;
+    margin-top: 10px;
+    position: absolute;
+}
+#get-started{
+    margin-top: 80px;
+    font-size: 20px;
+    padding: 15px 60px;
+    border-radius: 25px;
+    margin-right: 0px;
+}
 
 /* responsiveness */
 @media screen and (max-width: 938px) {
