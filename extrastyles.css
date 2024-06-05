@@ -705,7 +705,7 @@ color: white;
     
 }
 
-/* responsiveness */
+/* responsiveness small screens */
 @media screen and (max-width: 668px) {
     .top-text{
         display: none;
@@ -884,11 +884,200 @@ color: white;
       }
       .offices{
         margin-top: -120px;
-      }
-     
-      
+      }    
+}
 
-    
+/* responsiveness medium screens*/
+@media screen and (max-width: 1024px) {
+
+    .top-text{
+        display: none;
+    }
+    #hum{
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .top-bar1{
+        justify-content: space-around;
+    }
+    .register{
+        margin-left: -40px;
+        font-size: 10px;
+        width: fit-content;
+        height: 40px;
+    }
+    .logo-img{
+        margin-left: -70px;
+        width: 50px;
+        height: 40px;
+    }
+    .get-back{
+        font-size: 29px;
+        margin-top: 90px;
+    }
+    #smile{
+        width: 70px;
+        
+    }
+    .loading-dot-container{
+        margin-top: 100px;
+    }
+    .get-started{
+        width: 340px;
+    }
+    .top-sectt{
+        display: none;
+    }
+    .encourage{
+        margin-top: -50px;
+        font-size: 18px;
+        margin-left: -40px;
+    }
+    .en-img{
+        display: none;       
+    }
+    .surround-container{
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .demo-btn{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .tools-container{
+        flex-direction: column;
+        margin: 30px -50px;
+    }
+    .one-part{
+        margin-bottom: -50px;
+    }
+    .second-part{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .tools-part{
+        flex-direction: column;
+    }
+    .smiley-part{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .bg-img2{
+        display: none;
+    }
+    .plans{
+        flex-direction: column;
+    }
+    .sect3{
+        border: none;
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    .basic{
+        border: 1px solid gray;
+    }
+    .start{
+        text-align: center;
+    }
+    .start-up{
+      border: 1px solid rgb(224, 224, 224);
+      padding: 20px;
+      margin: 10px -40px;
+      border-radius: 12px;
+    }
+    .start-up1{
+        border: 1px solid rgb(224, 224, 224);
+        padding: 20px;
+        margin: 10px -40px;
+        border-radius: 12px;
+      }
+      .start-up2{
+        border: 1px solid rgb(224, 224, 224);
+        padding: 20px;
+        margin: 10px -40px;
+        border-radius: 12px;
+      }
+      .cust-img{
+        display: none;
+      }
+      .customer-sect{
+        width: 100%;
+        margin: 0px 0px;
+      }
+      .cust-text{
+        font-size: 25px;
+        text-align: center;
+        
+      }
+      .top-part5{
+        margin-bottom: -30px;
+      }
+      #cust-icon{
+        display: none;
+        border: none;
+      }
+      .text-par{
+        margin:10px -30px;
+      }
+      .text-quotes{
+        display: none;
+      }
+      .text-quotes1{
+        display: none;
+      }
+      .company-sect{
+        display: none;
+      }
+      .contact-form{
+        text-align: center;
+        margin: 10px 0px;
+      }
+      .cont-inputs{
+        flex-direction: column;
+        gap: 10px;
+      }
+      .contact-in{
+        border: 1px solid rgb(225, 224, 224);
+        padding-top: 10px;
+        
+      }
+      #get-started{
+        padding-bottom: 30px;
+      }
+      .footer{
+        flex-direction: column;
+      }
+      .other-sects{
+        display: none;
+      }
+      .chevron-up{
+        display: none;
+      }
+      .footer-icons{
+        margin-left: -210px;
+        font-size: 10px;
+      }
+      #fin-icons1{
+        color: rgb(51, 50, 63);
+        border: 2px solid rgb(51, 50, 63);
+      }
+      .offices{
+        margin-top: -120px;
+      }    
+}
+
+@media screen and (max-width: 1280px) {
+    .arrow{
+        display: none;
+    }
+    .bg-img2{
+        display: none;
+    }
 }
 
 
