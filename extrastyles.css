@@ -573,6 +573,9 @@ color: white;
     padding-bottom: 20px;
     padding-right: 70px; 
 }
+#your-mail:focus{
+    outline: none;
+}
 .contact-in:focus{
     outline: none;
 }
@@ -1071,14 +1074,7 @@ color: white;
       }    
 }
 
-@media screen and (max-width: 1280px) {
-    .arrow{
-        display: none;
-    }
-    .bg-img2{
-        display: none;
-    }
-}
+
 
 
 
