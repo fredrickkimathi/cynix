@@ -60,20 +60,21 @@
     border-radius: 50%;
     background-color: #ddd;
     cursor: pointer; /* Indicate clickable element */
-  }
-  
-  .loading-dot.active {
-    background-color:rgb(65, 185, 148); /* Active dot color */
+}
+
+.loading-dot.active {
+    background-color: rgb(65, 185, 148); /* Active dot color */
     width: 10px;
     height: 10px;
     margin-left: 13px;
-    
 }
-.loading-dot-container{
+
+.loading-dot-container {
     margin-top: 140px;
     margin-left: 30px;
 }
-.get-back{
+
+.get-back {
     font-size: 35px;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -81,7 +82,8 @@
     margin-top: 120px;
     margin-left: 30px;
 }
-.tech{
+
+.tech {
     color: rgb(65, 185, 148);
     font-weight: 420;
 }
