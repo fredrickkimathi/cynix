@@ -29,7 +29,13 @@ function updateContent() {
 }
 
 // Change content every 5 seconds
-setInterval(updateContent, 5000);
+setInterval(updateContent, 7000);
 
 // Initial content load
 updateContent();
+
+//pro button to be focus
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('proButton').focus();
+});
