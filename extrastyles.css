@@ -8,12 +8,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
-.top-bar1{
+.top-bar1 {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%; /* Set width to 100% */
+    padding: 1px; /* Add padding to improve appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    z-index: 999; /* Ensure the navigation bar is above other elements */
+    /* Add other styles as needed */
 }
+
 .top-bar{
     display: flex;
     padding: 20px 100px;
@@ -193,7 +199,7 @@
     display: flex;
     gap: 100px;
     background-color: rgb(51, 50, 63);
-    padding: 60px 50px;
+    padding: 85px 70px;
     margin-top: 50px;
     margin-right: 30px;
     color: white;
@@ -347,11 +353,15 @@
     color: gray;
 }
 
-.basic:focus {
+.basic.active {
     background-color: rgb(74, 186, 153);
     color: white;
+}
+
+.basic:focus {
     outline: none;
 }
+
 .sect3{
     width: max-content;
     border: 1px solid rgb(200, 200, 200);
