@@ -89,3 +89,17 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const humButton = document.querySelector('.hum');
+    const mobileView = document.querySelector('.mobile-nav');
+
+    humButton.addEventListener('click', function() {
+        mobileView.classList.add('open');
+        console.log('hello');
+    });
+});
+
+
+
+
+
