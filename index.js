@@ -94,11 +94,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const mobileView = document.querySelector('.mobile-nav');
 
     humButton.addEventListener('click', function() {
-        mobileView.classList.add('open');
+        mobileView.classList.toggle('open'); // Toggle the 'open' class
         console.log('hello');
     });
 });
-
 
 
 

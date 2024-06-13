@@ -44,14 +44,15 @@
     display: none;
     position: fixed;
     z-index: 101;
-    top: 70;
-    left: 290;
+    top: 55;
+    left: 230;
     background: var(--light-green);
     width: 50%;
     height: 100vh;
     background-color: white;
     height: fit-content;
     width: fit-content;
+    border-radius: 22px;
 
   }
   
@@ -106,6 +107,16 @@
     margin-right: 150px;
     font-size: 11px;
     padding: 12px 20px;
+    border: none;
+    height: fit-content;
+}
+.register1{
+    background-color: rgb(65, 185, 148);
+    color: white;
+    border-radius: 18px;
+    margin-top: 20px;
+    font-size: 11px;
+    padding: 12px 25px;
     border: none;
     height: fit-content;
 }
